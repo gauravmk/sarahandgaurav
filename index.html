@@ -1,4 +1,66 @@
 <html>
-<head></head>
-<body>Sarah and Gaurav are getting married!</body>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <style>
+    .fancy-font {
+      font-family: 'Ephesis', cursive;
+    }
+    .main-font {
+      font-family: "Jost", sans-serif;
+    }
+
+    .blue-bg {
+      background-color: #e1f6f2;
+    }
+
+    .green-bg {
+      background-color: #fdf8e1;
+    }
+
+    .border-salmon {
+      border-color: #f49595;
+    }
+
+    .salmon-text {
+      color: #f49595;
+    }
+  </style>
+</head>
+<body style="color: #f49595;">
+  <div class="flex flex-col items-center justify-center blue-bg pb-40">
+    <div class="text-lg mt-32 main-font flex font-light gap-4">
+      <span>June 27, 2025</span>
+      <span>|</span>
+      <span> Ann Arbor, MI </span>
+    </div>
+    <div class="text-9xl mt-8 w-2/3 text-center fancy-font">Sarah + Gaurav</div>
+    <div class="text-3xl mt-16 font-extralight main-font">We're getting married!</div>
+    <div class="text-3xl mt-16 font-extralight main-font">Here's what you need to know</div>
+  </div>
+  <div class="flex flex-col items-center justify-center green-bg pb-40 border-t-1 border-salmon">
+    <div class="text-4xl mt-16 main-font">Wedding Day Schedule</div>
+    <div class="text-2xl mt-16 main-font">
+      <div>
+        <span>11:30 AM</span>
+        <span>Ceremony @ City Hall</span>
+      </div>
+      <div>
+        <span>1:00 PM</span>
+        <span>Reception @ Burns Park</span>
+      </div>
+      <div>
+        <span>7:00 PM</span>
+        <span>Unofficial Afterparty aka Dinner</span>
+      </div>
+      <div>
+        <span>9:00 PM</span>
+        <span>Even less official After-afterparty</span>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
